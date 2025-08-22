@@ -1,5 +1,8 @@
 package execoes;
 
-public class NumerosIndevidosException {
+public class NumerosIndevidosException extends Exception {
+	public NumerosIndevidosException(String message) {
+		super(message);
 
+	}
 }
